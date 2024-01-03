@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+.contenedor-grid {
+    background-color: rgba(124, 58, 186, 0.815);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+}
+
+.columna1{
+    border: 2px;
+    padding: 20px;
+    background-color: rgba(212, 42, 195, 0.815);
+}
+
+.columna2{ 
+    padding: 20px;
+    border: 2px;
+    background-color: rgb(249, 248, 248);
+    color: rgb(0, 0, 0);
+}
+.columna3{ 
+    padding: 20px;
+    border: 2px;
+    background-color: rgba(212, 42, 195, 0.815);
+}
+
+.columna4{ 
+    padding: 20px;
+    border: 2px;
+    background-color: rgb(249, 248, 248);
+}
